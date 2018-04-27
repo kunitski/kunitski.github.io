@@ -1,0 +1,311 @@
+.bolder{
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+.famali{
+	font-family:arial;
+}
+
+
+
+
+.conteiner100{
+	width:100%;
+	min-height:1000px;
+	background:#f4f4f4;
+}
+.conteiner960{
+	width:960px;
+	min-height:150px;
+	margin:0px auto;
+}
+
+
+/*-------------------------шапка-----------------------------------*/
+
+.cap{
+	width:960px;
+	min-height:140px;
+	border-bottom:1px solid #c0c0c0;
+}
+.logo{
+	width:184px;
+	min-height:100px;
+	float:left;
+	margin:20px 0;
+}
+.topMenu{
+	width:660px;
+	min-height:100px;
+	float:right;
+	margin:20px 0;
+}
+.info{
+	width:100%;
+	min-height:20px;
+}
+.info a{
+	float:right;
+	text-decoration:none;
+	color:#adadad;
+}
+.topMenu ul li{
+	float:left;
+	margin:20px 0 0 32px;
+}
+.topMenu ul li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fda224;
+	font-weight:bolder;
+}
+.topMenu a:hover{
+	color:black;
+}
+
+/*-------------------------фото-----------------------------------*/
+
+.contImage{
+	width:960px;
+	min-height:400px;
+	background:linear-gradient(90deg,#fe9b00,#e35300);
+	margin: 20px 0 0 0;
+}
+.image{
+	width:474px;
+	min-height:363px;
+	background:url(../images/1.png);
+	float:right;
+	margin: 37px 0 0 0;
+}
+.creative{
+	width:485px;
+	min-height:300px;
+	float:left;
+}
+.creative h1{
+    color: #f4f4f4;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 40px 0 0 40px;
+    letter-spacing: 7px;
+	text-shadow: 3px 3px 5px #d77624;
+}
+.nice{
+    width: 430px;
+    min-height: 50px;
+    background: black;
+    margin: 35px;
+}
+.nice p{
+	color:#999898;
+    font-size: 15px;
+	margin: 17px;
+    float: left;
+}
+.nice a{
+    text-decoration: none;
+    color: #fe9b00;
+    margin: 17px 0 0 45px;
+    display: inline-block;
+	font-size: 15px;
+}
+
+/*-------------------------контент-----------------------------------*/
+
+.bodyContent{
+	width:960px;
+	min-height:270px;
+	margin:35px 0;
+	border-top:1px solid #c0c0c0;
+}
+.about{
+	width:285px;
+	min-height:210px;
+	margin:20px 0;
+	float:left;
+}
+.about a{
+	text-decoration:none;
+	color:#fe9b00;
+	text-transform: uppercase;
+	font-weight:bolder;
+	font-size: 14px;
+}
+.benefits{
+	width:285px;
+	min-height:210px;
+	margin:20px 0 0 60px;
+	float:left;
+}
+.benefits p:before{
+    display: block;
+    content: url(../images/2.png);
+    margin: 3px 5px 30px 0;
+    float: left;
+}
+.testimonials{
+	width:285px;
+	min-height:210px;
+	margin:20px 0;
+	float:right;
+}
+.testimonials p span{
+	font-style:italic;
+	color:black;
+}
+.bodyContent h2{
+	text-transform: uppercase;
+	font-weight:bolder;
+	margin:0 0 10px 0;
+    border-bottom: 5px solid black;
+    line-height: 3;
+	
+}
+.bodyContent p{
+	color:#6b6b6b;
+	line-height: 20px;
+	margin: 0 0 10px 0;
+	font-size: 12px;
+}
+
+/*-------------------------портфолио-----------------------------------*/
+
+.contPortfolio{
+	width:960px;
+	min-height:200px;
+	margin:0px 0 30px 0;
+	border-top:1px solid #c0c0c0;
+}
+.contPortfolio div:nth-child(5){
+	margin:0px 0px 0 0;
+}
+.contPortfolio h2{
+	text-transform: uppercase;
+	font-weight:bolder;
+	margin:20px 0 10px 0;
+}
+.portfolio{
+	position:relative;
+	width:215px;
+	min-height:135px;
+	margin:0px 33px 0 0;
+	float:left;
+}
+.viev{
+	position:absolute;
+	width:60px;
+	min-height:20px;
+	margin:-22.7px 0px 0 155px;
+	background:#fe9b00;
+}
+.viev a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 3px 4px 6px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/*-------------------------blog updates-----------------------------------*/
+
+
+
+.contBlog{
+	width:960px;
+	min-height:140px;
+	margin:0px 0 30px 0;
+	border-top:1px solid #c0c0c0;
+}
+.blog{
+	width:670px;
+	min-height:140px;
+	margin:30px 0 0 0 ;
+	float:left;
+}
+.blog h3 ,.conenkt h3{
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+.blog p{
+	color:#6b6b6b;
+	line-height:20px;
+	margin:20px 0 10px 0;
+	font-size:12px;
+}
+.conenkt{
+	width:220px;
+	min-height:140px;
+	margin:30px 0 0 70px;
+	float:left;
+}
+.conenkt ul li{
+	float:left;
+	margin: 15px 23px 0 0;
+}
+
+/*-------------------------нижнее меню-----------------------------------*/
+
+.contFooter100{
+	width:100%;
+	min-height:100px;
+	background:#e2e2e2;
+}
+.contFooter{
+	width:960px;
+	min-height:100px;
+	margin:0px auto;
+	font-family:arial;
+}
+.menu{
+	width:350px;
+	min-height:80px;
+	margin:20px 0 0 0;
+	float:left;
+}
+.menu ul li{
+	float:left;
+	border-right:1px solid #6b6b6b;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#6b6b6b;
+	font-size:12px;
+	padding: 0px 7px 0 8px;
+}
+.menu ul li a:hover{
+	color:black;
+}
+.menu ul li:last-child{
+	border:none;
+}
+.menu ul li:first-child a{
+	padding: 0px 9px 0 0px;
+}
+.menu p{
+	color:#6b6b6b;
+	font-size:12px;
+	float:left;
+	margin: 10px 0 0 0;
+}
+.logoD{
+	width:119px;
+	min-height:85px;
+	margin:15px 0px 0px 0;
+	float: right;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

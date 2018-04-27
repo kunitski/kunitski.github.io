@@ -1,0 +1,5 @@
+ $('.classworks_table tr[data-id-stud="3351"] td:gt(1) select').val(0).change()
+ 
+var jq = document.createElement('script');
+jq.src = "http://code.jquery.com/jquery-latest.min.js";
+document.getElementsByTagName('head')[0].appendChild(jq);
